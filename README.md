@@ -1,16 +1,16 @@
-# eslint-config-scoville
+# @scoville/eslint-config
 
 
 ## Installation
 
 ### npm
 ```
-$ npm install --save-dev eslint eslint-config-scoville
+$ npm install --save-dev eslint @scoville/eslint-config
 ```
 
 ### yarn
 ```
-$ yarn add --dev eslint eslint-config-scoville
+$ yarn add --dev eslint @scoville/eslint-config
 ```
 
 
