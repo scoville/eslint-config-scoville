@@ -1,6 +1,6 @@
 {
   "name": "@scoville/eslint-config",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,8 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.5.1"
   }
