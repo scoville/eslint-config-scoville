@@ -22,5 +22,8 @@
   "homepage": "https://github.com/scoville/eslint-config-scoville#readme",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.5.1"
   }
 }
