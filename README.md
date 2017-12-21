@@ -27,15 +27,4 @@ Once the `eslint-config-scoville` package is installed, you can use it by specif
 }
 ```
 
-### Using the `scoville` config
-
-```js
-{
-  "extends": ["scoville"],
-  "rules": {
-    // Additional, per-project rules...
-  }
-}
-```
-
 ## License

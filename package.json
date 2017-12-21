@@ -1,0 +1,26 @@
+{
+  "name": "@scoville/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/scoville/eslint-config-scoville.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Scoville",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scoville/eslint-config-scoville/issues"
+  },
+  "homepage": "https://github.com/scoville/eslint-config-scoville#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
