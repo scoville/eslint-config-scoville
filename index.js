@@ -1,20 +1,17 @@
 module.exports = {
   globals: {
-    MyGlobal: true
-  },
-  rules: {
-    semi: [2, 'always']
+    MyGlobal: true,
   },
   env: {
     browser: true,
-    es6: true
+    es6: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
   ],
   plugins: [
-    'react'
+    'react',
   ],
   rules: {
     'semi': [2, 'always'],
@@ -23,9 +20,12 @@ module.exports = {
     'no-useless-return': 2,
     'padded-blocks': [2, 'never'],
     'react/prefer-stateless-function': 2,
-    'react/forbid-prop-types': 2
+    'react/forbid-prop-types': 2,
   },
   parserOptions: {
     "sourceType": "module",
-  }
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+    },
+  },
 };
