@@ -20,7 +20,7 @@ module.exports = {
     'no-useless-return': 2,
     'padded-blocks': [2, 'never'],
     'react/prefer-stateless-function': 2,
-    'react/forbid-prop-types': 2,
+    // 'react/forbid-prop-types': 2,
   },
   parserOptions: {
     "sourceType": "module",
