@@ -17,11 +17,12 @@ module.exports = {
   ],
   rules: {
     'semi': [2, 'always'],
-    'quotes': [2, 'single'],
+    'quotes': [3, 'single'],
     'object-curly-spacing': [2, 'always'],
     'no-useless-return': 2,
     'padded-blocks': [2, 'never'],
     'react/prefer-stateless-function': 2,
+    "flowtype/semi": 2,
     // 'react/forbid-prop-types': 2,
   },
   parserOptions: {
