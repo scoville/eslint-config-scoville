@@ -17,7 +17,7 @@ module.exports = {
   ],
   rules: {
     'semi': [2, 'always'],
-    'quotes': [3, 'single'],
+    'quotes': [2, 'single'],
     'object-curly-spacing': [2, 'always'],
     'no-useless-return': 2,
     'padded-blocks': [2, 'never'],
