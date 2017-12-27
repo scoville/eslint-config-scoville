@@ -24,6 +24,14 @@ module.exports = {
     'react/prefer-stateless-function': [2, { "ignorePureComponents": true }],
     'flowtype/semi': 2,
     // 'react/forbid-prop-types': 2,
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'always-multiline',
+    }],
+    'comma-spacing': ['error', { before: false, after: true }],
   },
   parserOptions: {
     "sourceType": "module",
