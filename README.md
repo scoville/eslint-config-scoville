@@ -27,4 +27,12 @@ Once the `eslint-config-scoville` package is installed, you can use it by specif
 }
 ```
 
+## Development
+
+### Test
+```
+yarn test
+```
+
 ## License
+
